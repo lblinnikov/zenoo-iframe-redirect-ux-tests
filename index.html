@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenoo Onboarding | Embed Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: #f6f6f6;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            width: 600px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #017aff;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        button:active {
+            background-color: #388e3c;
+        }
+
+        iframe#zenoo-embed {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 10px;
+            transition: height 0.3s ease;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zenoo Onboarding</h1>
+        <p>Let's test Zenoo redirection:</p>
+        <iframe id="zenoo-embed"></iframe>
+
+    </div>
+    
+    <script
+    src="https://onboard-test-ie.zenoo.io/ff72fff290a5ee1ce85b58afb8db97bd63547fad/assets/embed.js"
+    iframe-id="zenoo-embed">
+    </script>
+</body>
+</html>
